@@ -28,8 +28,6 @@ public class kafkaProducerndConsumer  implements ApplicationRunner{
       sendMessage("Hi Welcome to Spring For Apache Kafka");
    }
 
-	public static void main(String[] args) {
-		SpringApplication.run(kafkaProducerndConsumer.class, args);
-	}
+	
 
 }
